@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Books Chatbot
+A super useful customer support chatbot using OpenAI's ChatGPT
 
-## Getting Started
+# Features
+Real-time streamed chatbot responses
 
-First, run the development server:
+Optimistic updates for the best UX
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Secured, rate-limited API routes to prevent abuse
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+TailwindCSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Icons from Lucide
 
-## Learn More
+Class merging with tailwind-merge
 
-To learn more about Next.js, take a look at the following resources:
+Conditional classes with clsx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech used
+Next, Typescript, Prisma, Radix UI, Upstash Redis, clsx, Tailwind merge,  lucide react, openai,zod
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live URL
+https://fq-books-chatbot.vercel.app/
